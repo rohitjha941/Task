@@ -1,0 +1,73 @@
+@import "../../index.scss";
+
+.register {
+  padding: 2rem 2rem;
+
+  .register-title {
+    font-size: 1.625rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+
+    margin-bottom: 3.9375rem;
+  }
+  .register-form {
+    input {
+      display: block;
+      margin-bottom: 3.3125rem;
+      border: none;
+      background: none;
+      border-bottom: 1px solid #212121;
+      width: 100%;
+
+
+      font-size: 16px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.19;
+      letter-spacing: normal;
+      text-align: left;
+      color: #616161;
+
+      padding: 0.625rem 0;
+    }
+    .submit {
+        border-radius: 0.25rem;
+        box-shadow: 0 0.625rem 0.75rem 0 rgba(97, 97, 97, 0.16);
+        background-color: $blue;
+        border: none;
+        width: 100%;
+        text-align: center;
+
+        font-size: 1rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.19;
+        letter-spacing: normal;
+        text-align: left;
+        color: #ffffff;
+
+        display: block;
+
+        margin-top: 4rem;
+
+        padding: 18px 40.2%;
+    }
+    .register-terms {
+      font-size: 13px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 2;
+      letter-spacing: normal;
+      text-align: left;
+      color: #616161;
+    }
+  }
+}
