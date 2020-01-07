@@ -5,6 +5,7 @@ import Login from "./compopnents/login"
 import "./index.scss";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Register from './compopnents/register';
+import OTP from './compopnents/otp';
 export default class App extends Component {
     render() {
         return (
@@ -12,6 +13,7 @@ export default class App extends Component {
                 <Switch>
                     <Route path = "/" component = {Login} exact = {true} />
                     <Route path = "/register" component = {Register}   />
+                    <Route path = "/otp/:email" component = {OTP} />
                 </Switch>
                 
             </Router>

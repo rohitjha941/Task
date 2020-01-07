@@ -1,0 +1,59 @@
+@import "../../index.scss";
+.otp {
+  padding: 2rem 2rem;
+
+  .otp-header {
+    font-size: 1.625rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+  }
+
+  .otp-details {
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: left;
+    color: #616161;
+    margin-top: 1.5625rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .otp-i {
+    .otp-container {
+      border: none;
+      border-bottom: 1px solid black;
+      font-size: 2em;
+    }
+    .otp-focus {
+      border-bottom: 1px solid $blue;
+    }
+
+    button {
+      border-radius: 0.25rem;
+      box-shadow: 0 0.625rem 0.75rem 0 rgba(97, 97, 97, 0.16);
+      background-color: $blue;
+      border: none;
+      width: 50%;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.19;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      display: block;
+      margin-top: 4rem;
+      padding: 18px 15.2%;
+    }
+  }
+}
